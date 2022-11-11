@@ -10,6 +10,7 @@
     padding: 0;
     max-width: 1400px;
 }
+
 body {
     display: flex;
     flex-flow: column wrap;
@@ -394,7 +395,7 @@ footer>.section_footer>ul>li{
     width: 100%;
     height: 56px;
     border-radius: 0 0 20px   20px ;
-    margin: 1em;
+    padding: 1em;
     
 }
 /* img cards */
@@ -512,16 +513,21 @@ footer>.section_footer>ul>li{
     nav>.nav-list>.nav-items:hover>.nav-links{
         border-top: none;
     }
+    .header-main{
+        padding-left:25px;
+        padding-top: 19px;
+    }
     .header-main>form>button.rechercher>span {
         display: none;
     } 
     .filters {
         display: flex;
         flex-flow: column ;
+        margin-left: 25px;
     }
     .filters>.title {
         
-        margin: 15px 7px;
+        margin: 25px 7px;
         align-items: center;
     }
     .filters>.f-cards{
@@ -558,25 +564,32 @@ footer>.section_footer>ul>li{
         display:flex;
         flex-flow: column;
         justify-content: space-evenly;
-        align-items: center;   
+        align-items: center;  
+        width: 100%; 
     }
+    /* .main-container>section.herbergement-container>.content>a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } */
     .main-container>section.popular-container{
         margin: 0;
         padding: 0;
     }
     .main-container>section.popular-container>.content{
         display:flex;
-        flex-flow: column wrap;
+        flex-flow: column;
         justify-content: space-evenly;
-        align-items: center; 
+        align-items: center;  
+        width: 100%;  
     }
     
-    section.activities-container>.content{
+    /* section.activities-container>.content{
         display: flex;
         flex-flow: column;
         justify-content: space-evenly;
         align-items: center;
-    }
+    } */
     /* footer */
 footer{
     display: flex;
@@ -584,6 +597,7 @@ footer{
     justify-content: center;
     align-items: center;
     margin: 0;
+
 }
 
 footer>.section_footer>.title{
@@ -600,6 +614,7 @@ footer>.section_footer>ul>li{
     .card_type_2{
         width: 334px;
         height: 144px;
+        margin:0 10px 10px 0 ;
     }
     .card_type_3{
         height: 190px;

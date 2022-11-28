@@ -528,6 +528,9 @@ footer>.section_footer>ul>li{
         padding-top: 19px;
    
     }
+    .header-main>form>input.search {
+        width: 10rem;
+    }
     .header-main>form>button.rechercher>span {
         display: none;
     } 
@@ -632,7 +635,7 @@ footer>.section_footer{
 
 
     .card_type_1{
-        width: 335px;
+        width: 330px;
         height: 199px;
     }
     .card_type_2{
@@ -644,5 +647,10 @@ footer>.section_footer{
         height: 190px;
         width: 334px;
         margin-bottom: 24px;
+        
+    }
+    .card_type_3 .card_title{
+        width: 50%;
+            /* padding: 1rem 0 1rem 1rem;  */
     }
 }

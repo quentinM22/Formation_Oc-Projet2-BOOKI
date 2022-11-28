@@ -637,6 +637,7 @@ footer>.section_footer{
     .card_type_1{
         width: 330px;
         height: 199px;
+        margin: 1rem 0 1rem 0;
     }
     .card_type_2{
         width: 334px;

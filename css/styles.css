@@ -397,6 +397,10 @@ line-height: 2rem;
 .card_type_1>.card_body>.subtitle {
     font-size: 14px;
     font-weight: 400;
+    max-height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: wrap;
 }
 
 .card_type_1>.card_body>.card_stars {
@@ -458,9 +462,10 @@ line-height: 2rem;
     /* max-height: 10%; */
     max-width: 100%;
     font-weight: 400;
+    max-height: 40px;
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrap;
+    white-space: wrap;
 }
 
 .card_type_2>.card_body>.card_stars {
@@ -569,8 +574,8 @@ line-height: 2rem;
 /* Tablette */
 @media (min-width: 768px) and (max-width: 992px) {
     main {
-        padding-left: 20px;
-        padding-right: 20px;
+        /* padding-left: 20px;*/
+        padding-right: 50px; 
     }
     /* filtersContainerTab */
     .filters>.f-cards>.filtersCard {
@@ -650,6 +655,7 @@ line-height: 2rem;
     }
     main {
         padding: 0;
+        margin: 0;
     }
     nav {
         display: flex;
@@ -696,7 +702,8 @@ line-height: 2rem;
     }
 
     .header-main>form>input.search {
-        width: 9rem;
+        width: 11rem;
+        font-size: 14px;
     }
 
     .header-main>form>button.rechercher>span {
@@ -813,7 +820,7 @@ line-height: 2rem;
     section.activities-container {
         display: flex;
         flex-direction: column;
-        margin: 0;
+        margin: 0 0 20px 0;
     }
 
     section.activities-container>.content {
@@ -844,6 +851,20 @@ line-height: 2rem;
         height: 199px;
         margin: 1rem 0 1rem 0;
         padding-bottom: 10px;
+        line-height: 16px;
+    }
+    .card_type_1>.card_img {
+      background-position: bottom;  
+    }
+    .card_type_1>.card_body>.card_title {
+        width: 95%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    
+    }
+    .card_type_1>.card_body>.card_stars {
+        font-size: 15px;
     }
 
     .card_type_2 {
@@ -863,9 +884,6 @@ line-height: 2rem;
         padding-right: 10px;
     }
 
-    .card_type_2>.card_body>.card_stars {
-        margin-bottom: 20px;
-    }
 
     .card_type_3 {
         width: 90%;

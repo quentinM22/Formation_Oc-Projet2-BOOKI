@@ -856,8 +856,11 @@ line-height: 2rem;
     .card_type_1>.card_img {
       background-position: bottom;  
     }
+    .card_type_1>.card_body{
+        max-width: 95%;
+    }
     .card_type_1>.card_body>.card_title {
-        width: 95%;
+        max-width: 95%;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;

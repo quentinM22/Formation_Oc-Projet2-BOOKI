@@ -255,6 +255,8 @@ nav>.nav-list>.nav-items:hover>.nav-links {
     display: flex;
     margin: 37px 0 0 0;
     max-width: 100%;
+    justify-content: space-between;
+    min-width: 100%;
 }
 
 .main-container>section {

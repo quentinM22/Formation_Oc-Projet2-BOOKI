@@ -289,7 +289,7 @@ nav>.nav-list>.nav-items:hover>.nav-links {
 
 /* popular-container */
 .main-container>section.popular-container {
-    max-width: 35%;
+    width: 35%;
     padding-left: 10px;
     padding-right: 10px;
     min-height: 100%;
@@ -380,13 +380,14 @@ footer>.section_footer>ul>li {
 .card_type_1>.card_body {
     padding:0 5px 5px 5px;
 line-height: 2rem;
-    max-width: 100%;
+    width: 100%;
 
 
 }
 
 .card_type_1>.card_body>.card_title {
     max-height: 40px;
+    width: 95%;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: wrap;
@@ -570,26 +571,27 @@ line-height: 2rem;
 /* Tablette */
 @media (min-width: 768px) and (max-width: 992px) {
     main {
-        /* padding-left: 20px;*/
-        padding-right: 50px; 
+        padding: 0;
+        margin: 0; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     /* filtersContainerTab */
     .filters>.f-cards>.filtersCard {
-
         margin-left: 0.5rem;
-
         padding-right: 0.5rem;
     }
 
     .main-container {
         display: flex;
         flex-direction: column;
-        /* margin-right: 20px; */
-
+        margin-left: 25px;
+        margin-right: 25px;
     }
 /* hebergementContainerTab */
     .main-container>section.herbergement-container {
-        margin-right: 0;
+        margin: 0;
         max-width: 100%;
     }
 
@@ -599,8 +601,10 @@ line-height: 2rem;
     }
 /* popularContainerTab */
     .main-container>section.popular-container {
-        max-width: 100%;
+        width: 100%;
         margin-top: 50px;
+        padding-right: 0;
+        /* margin-right: 30px; */
     }
 
     .main-container>section.popular-container>.content {
@@ -798,11 +802,13 @@ line-height: 2rem;
 
     /* PopularContainerMobile */
     .main-container>section.popular-container {
-        max-width: 100%;
+        width: 100%;
         margin: 0;
         padding-bottom: 20px;
     }
-
+    .main-container>section.popular-container>.title{
+        padding-right: 2rem;
+    }
     .main-container>section.popular-container>.content {
         display: flex;
         flex-flow: column;

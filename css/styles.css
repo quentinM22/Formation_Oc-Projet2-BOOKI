@@ -805,6 +805,8 @@ line-height: 2rem;
         width: 100%;
         margin: 0;
         padding-bottom: 20px;
+        padding-right: 0;
+        padding-left: 0;
     }
     .main-container>section.popular-container>.title{
         padding-right: 2rem;

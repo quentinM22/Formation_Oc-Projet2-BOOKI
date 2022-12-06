@@ -603,7 +603,7 @@ line-height: 2rem;
 
 
 /* Tablette */
-@media (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
     main {
         padding: 0;
         margin: 0; 
@@ -689,7 +689,7 @@ line-height: 2rem;
 }
 
 /* mobile */
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
 
     body {
         display: flex;
@@ -953,5 +953,11 @@ line-height: 2rem;
 
     .card_type_3>.card_img {
         height: 199px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    html{
+     margin: auto;
     }
 }

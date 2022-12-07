@@ -490,9 +490,12 @@
 
 .card_type_3>.card_title {
     max-width: 100%;
-    height: 56px;
+    height: 25%;
     border-radius: 0 0 20px 20px;
     padding: 1em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: wrap;
 
 }
 
@@ -514,6 +517,7 @@
 
     .card_type_3>.card_title {
         display: flex;
+        height: 35%;
         align-items: center;
         max-width: 75%;
         padding: 1rem;

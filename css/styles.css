@@ -351,6 +351,7 @@
     padding: 0 5px 5px 10px;
     line-height: 2rem;
     width: 100%;
+    overflow: hidden;
 
 
 }
@@ -358,7 +359,6 @@
 .card_type_1>.card_body>.card_title {
     max-height: 40px;
     width: 95%;
-    overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
 
@@ -610,6 +610,9 @@ li {
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
 }
 
 .subtitle {
@@ -617,6 +620,8 @@ li {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 /* header > nav */
@@ -894,17 +899,22 @@ footer {
 
     padding: 2em 1em 2em 1em;
     background: var(--bg-section);
+    overflow: hidden;
+    
+    text-overflow: ellipsis;
 }
 
 footer>.section_footer {
     display: flex;
     flex-direction: column;
     padding-top: 1em;
+    max-width: 100%;
 }
 
 footer>.section_footer>.title {
     margin-bottom: 1em;
     font-size: 18px;
+    max-width: 100%;
 }
 
 footer>.section_footer>ul>li {
@@ -929,7 +939,7 @@ footer>.section_footer>ul>li>a:hover {
     .header-main,
     .filters,
     .info {
-        padding-left: 25px;
+        padding-left: 20px;
     }
 
     .filters>.f-cards>.filtersCard {
@@ -988,7 +998,11 @@ footer>.section_footer>ul>li>a:hover {
         align-items: center;
 
     }
+    nav>.logo>img {
 
+        padding: 22px 1rem 44px;
+        box-sizing: content-box;
+    }
     .content {
         padding-right: 0;
     }
@@ -1038,12 +1052,25 @@ footer>.section_footer>ul>li>a:hover {
         padding-top: 19px;
 
     }
-
+    .header-main>form>span{
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding:1rem 10px  ;
+    }
     .header-main>form>input.search {
         width: 75%;
+        padding:1rem 10px ;
         font-size: 14px;
     }
-
+    .header-main>form>button.rechercher{
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding:1rem 10px ;
+    }
     .header-main>form>button.rechercher>span {
         display: none;
     }
@@ -1051,12 +1078,10 @@ footer>.section_footer>ul>li>a:hover {
     .filters {
         display: flex;
         flex-flow: column;
-        margin-left: 5px;
-
+        padding: 20px 20px;
     }
 
     .filters>.title {
-        margin: 25px 7px;
         align-items: center;
 
     }
@@ -1066,6 +1091,7 @@ footer>.section_footer>ul>li>a:hover {
         flex-flow: row wrap;
         align-items: center;
         justify-content: center;
+        padding-top: 25px;
         min-width: 100%;
 
     }
@@ -1099,6 +1125,9 @@ footer>.section_footer>ul>li>a:hover {
         margin: 50px 0 15px 15px;
         align-items: flex-start;
         flex-flow: row wrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 100%;
     }
 
     .main-container {
@@ -1109,7 +1138,7 @@ footer>.section_footer>ul>li>a:hover {
     .main-container>section,
     section.activities-container {
         border-radius: 0;
-        padding: 20px 15px 10px 15px;
+        padding: 20px 15px 10px 20px;
     }
 
     .main-container>section.herbergement-container {

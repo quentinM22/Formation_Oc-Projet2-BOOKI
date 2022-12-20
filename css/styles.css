@@ -706,7 +706,7 @@ main {
 .header-main>form>span {
     padding: 1rem 1.25rem;
     text-align: center;
-    background: var(--light-blue);
+    background: var(--grey);
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
@@ -778,10 +778,10 @@ main {
     cursor: pointer;
     font-weight: bold;
     padding-right: 1rem;
-    max-width: 33%;
+    max-width: 30%;
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrap;
+    /* white-space: nowrap; */
 }
 
 .filters>.f-cards>.filtersCard:hover {
@@ -852,7 +852,7 @@ main {
 /* herbergement-container */
 .main-container>section.herbergement-container,
 .main-container>section.popular-container {
-    padding: 42px 40px 20px 40px;
+    padding: 42px 40px 0 40px;
 
 }
 
@@ -932,27 +932,46 @@ footer>.section_footer>ul>li>a:hover {
 
 /* -----Tablette----- */
 @media screen and (min-width: 768px) and (max-width: 992px) {
+   body{
+    padding-left: 72px;
+    padding-right: 72px;
+   }
+   nav>.logo>img {
+    padding: 44px 1rem 44px;
+}
+nav>.nav-list>.nav-items {
+    padding-right: 0;
+    height: 100%;
+}
     main {
         padding: 0;
         margin: 0;
         display: flex;
         flex-direction: column;
     }
-
-    .header-main,
-    .filters,
-    .info {
-        padding-left: 20px;
+    .filters>.title{
+        padding-right: 10px;
     }
-
     .filters>.f-cards>.filtersCard {
-        margin-left: 0.5rem;
+        /* min-width: 100px; */
+        max-width: 35%;
+        margin-left: 10px;
         padding-right: 0.5rem;
     }
+    .filters>.f-cards>.filtersCard>i {
 
-    .main-container {
-        margin: 20px;
+        min-height: 50px;
+        min-width:40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: -2px;
+        color: var(--blue);
+    
     }
+    /* .main-container {
+        margin: 20px;
+    } */
 
     .main-container>section {
         padding: 0 20px 0 0;
@@ -962,20 +981,30 @@ footer>.section_footer>ul>li>a:hover {
         margin-top: 50px;
     }
 
-    section.activities-container {
-        padding-left: 20px;
-        padding-right: 20px;
+    /* section.activities-container {
+        padding-left:0;
+        padding-right: 0;
 
-    }
+    } */
 
     section.activities-container>content {
 
         padding: 0;
     }
-
+    .card_type_3 > .card_title {
+        display: flex;
+        height: 56px;
+        align-items: center;
+        max-width: 90%;
+        padding: 1rem;
+      }
     .content {
         margin-left: 0;
         margin-right: 0;
+    }
+    footer{
+       margin-left: 0;
+       margin-right: 0; 
     }
 }
 

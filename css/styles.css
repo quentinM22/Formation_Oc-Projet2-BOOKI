@@ -522,6 +522,9 @@ body{
         align-items: center;
         max-width: 95%;
         padding: 1rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
     }
 } 
 
@@ -981,13 +984,6 @@ nav>.nav-list>.nav-items {
 
         padding: 0;
     }
-    .card_type_3 > .card_title {
-        display: flex;
-        height: 56px;
-        align-items: center;
-        max-width: 90%;
-        padding: 1rem;
-      }
     .content {
         margin-left: 0;
         margin-right: 0;

@@ -433,7 +433,7 @@ body{
     max-height: 40px;
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space: wrap;
+
 }
 
 .card_type_2>.card_body>.card_description>.subtitle {
@@ -443,7 +443,7 @@ body{
     max-height: 40px;
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space: wrap;
+
 }
 
 .card_type_2>.card_body>.card_stars {
@@ -498,7 +498,6 @@ body{
     padding: 1em;
     text-overflow: ellipsis;
     overflow: hidden;
-    white-space: wrap;
 
 }
 

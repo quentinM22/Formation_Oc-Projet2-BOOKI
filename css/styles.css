@@ -780,7 +780,6 @@ main {
     max-width: 30%;
     overflow: hidden;
     text-overflow: ellipsis;
-    /* white-space: nowrap; */
 }
 
 .filters>.f-cards>.filtersCard:hover {
@@ -953,7 +952,6 @@ nav>.nav-list>.nav-items {
         padding-right: 10px;
     }
     .filters>.f-cards>.filtersCard {
-        /* min-width: 100px; */
         max-width: 35%;
         margin-left: 10px;
         padding-right: 0.5rem;
@@ -969,9 +967,7 @@ nav>.nav-list>.nav-items {
         color: var(--blue);
     
     }
-    /* .main-container {
-        margin: 20px;
-    } */
+
 
     .main-container>section {
         padding: 0 20px 0 0;
@@ -981,11 +977,6 @@ nav>.nav-list>.nav-items {
         margin-top: 50px;
     }
 
-    /* section.activities-container {
-        padding-left:0;
-        padding-right: 0;
-
-    } */
 
     section.activities-container>content {
 

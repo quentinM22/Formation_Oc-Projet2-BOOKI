@@ -103,7 +103,7 @@ body{
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
 
     .grid-item-md-1 {
         flex: 0 0 calc(8.33% - 20px);
@@ -173,7 +173,7 @@ body{
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .grid-reverse {
         display: flex;
         flex-wrap: wrap-reverse;
@@ -503,7 +503,7 @@ body{
 
 /*  */
 /* CarTab */
-@media screen and (min-width: 769px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
     .card_type_2>.card_body {
         padding-top: 10px;
         padding-right: 10px;
@@ -529,7 +529,7 @@ body{
 } 
 
 /* CardMobile */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .card_type_1 {
         height: 199px;
         padding-bottom: 10px;
@@ -931,7 +931,7 @@ footer>.section_footer>ul>li>a:hover {
 
 
 /* -----Tablette----- */
-@media screen and (min-width: 769px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
    body{
     padding-left: 72px;
     padding-right: 72px;
@@ -995,7 +995,7 @@ nav>.nav-list>.nav-items {
 }
 
 /* -----mobile----- */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
     body {
         display: flex;

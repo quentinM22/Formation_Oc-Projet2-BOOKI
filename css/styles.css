@@ -739,6 +739,9 @@ main {
     background: var(--blue);
     font-size: 1rem;
 }
+.header-main>form>button>i{
+    display: none;
+}
 
 .header-main>form>button.rechercher:hover {
     cursor: pointer;
@@ -1092,6 +1095,10 @@ nav>.nav-list>.nav-items {
         align-items: center;
         padding:1rem 10px ;
     }
+    .header-main>form>button>i{
+        display: block;
+    }
+    
     .header-main>form>button.rechercher>span {
         display: none;
     }
